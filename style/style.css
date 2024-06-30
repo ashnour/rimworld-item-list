@@ -1,0 +1,69 @@
+@font-face {
+    font-family: '8Bit'; /*a name to be used later*/
+    src: url('../fonts/determination-8-bit-oper-jve-mono-edited.ttf'); /*URL to font*/
+}
+
+body,
+.main,
+.jumbotron,
+.container,
+.list-group,
+.list-group-item {
+    background-color: #272c32;
+    font-family: '8Bit';
+    color: #ffffff;
+}
+nav.bg-dark,
+.list-group-item {
+    background-color: #2e343a  !important;
+    border: 2px solid #495756;
+}
+
+.btn-primary,
+.btn-success,
+.input-group-text {
+    color: #fff;
+    background-color: #2e343a;
+    border-color: #495756;
+    font-size: 17px !important;
+}
+
+.btn-primary:hover,
+.btn-success:hover,
+.input-group-text:hover {
+    background-color: #272c32;
+    border-color: #495756;
+}
+
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: #495756;
+    border-color: #495756;
+}
+.btn-success:not(:disabled):not(.disabled).active:focus, .btn-success:not(:disabled):not(.disabled):active:focus, .show>.btn-success.dropdown-toggle:focus,
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgb(73 87 86 / 44%)
+}
+
+.form-control {    
+    border: 2px solid #495756;
+    background-color: #2e343a;
+    color: #fff;
+}
+
+.table {
+ border-color: #495756;   
+}
+
+.table tbody+tbody {
+    border-top: 2px solid #495756;
+}
+
+.table td, .table th {
+    border-top: 1px solid #495756;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
+}
